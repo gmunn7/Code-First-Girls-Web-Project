@@ -1,0 +1,15 @@
+h1 {
+  font-family: fantasy;
+  color: red
+}
+p {
+  color: blue;
+  font-family: fantasy;
+}
+img {
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
