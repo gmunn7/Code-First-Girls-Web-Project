@@ -1,10 +1,13 @@
 h1 {
-  font-family: fantasy;
-  color: red
+  font-family: helvetica;
+  color: #b2b2ff;
+  text-align: center;
+  padding: 50px;
 }
 p {
   color: blue;
   font-family: fantasy;
+  text-align: center;
 }
 img {
   width: auto;
@@ -12,4 +15,23 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+.navbar{
+  text-align: right;
+}
+.bannerlizzie {
+  max-width: 1700px;
+  max-height: 300px;
+  margin: auto;
+  border-style: solid; 20px;
+}
+.title {
+  padding: 70px;
+}
+.homepage {
+  text-align: center;
+  color: #b2b2ff;
+}
+.social-buttons {
+  text-align: center;
 }
