@@ -1,7 +1,13 @@
 body {
   background-color: rgb(247, 238, 67);
 }
-
+.navbar-header {
+  font-weight: bold;
+  font-family: margot;
+  src: url(https://befonts.com/margot-font-family.html);
+  color: #003366;
+  font-variant: small-caps;
+}
 h1 {
   font-family: margot;
   src: url(https://befonts.com/margot-font-family.html);
