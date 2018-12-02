@@ -33,6 +33,12 @@ img {
   text-align: center;
   color: #003366;
 }
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}
 .form-row {
   display: block;
   margin: auto;
