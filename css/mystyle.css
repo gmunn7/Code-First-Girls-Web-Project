@@ -19,7 +19,7 @@ p {
 .text {
   color: #003366;
   font-family: margot;
-  src: url(https://befonts.com/margot-font-family.html);  
+  src: url(https://befonts.com/margot-font-family.html);
 }
 img {
   display: block;
@@ -101,7 +101,7 @@ img {
 /* Caption text */
 .text {
   color: #003366;
-  font-size: 15px;
+  font-size: 18px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
