@@ -86,6 +86,7 @@ img {
   top: 50%;
   width: auto;
   margin-top: -22px;
+  margin-bottom: 30px;
   padding: 16px;
   color: white;
   font-weight: bold;
@@ -162,6 +163,7 @@ img {
 
 .btn-instagram {
   text-align: center;
-  background: #00acee;
+  background: #003366;
+  font: white;
   border-color: #009ad5;
 }
