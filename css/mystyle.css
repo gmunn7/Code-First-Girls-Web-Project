@@ -16,6 +16,11 @@ p {
   src: url(https://befonts.com/margot-font-family.html);
   text-align: center;
 }
+.text {
+  color: #003366;
+  font-family: margot;
+  src: url(https://befonts.com/margot-font-family.html);  
+}
 img {
   display: block;
   width: 400px;
