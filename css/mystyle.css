@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(247, 238, 67);
+}
+
 h1 {
   font-family: margot;
   src: url(https://befonts.com/margot-font-family.html);
