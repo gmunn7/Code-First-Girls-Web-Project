@@ -19,12 +19,6 @@ img {
 .navbar{
   text-align: right;
 }
-.bannerlizzie {
-  max-width: 1700px;
-  max-height: 300px;
-  margin: auto;
-  border-style: solid; 20px;
-}
 .title {
   padding: 70px;
 }
@@ -129,4 +123,17 @@ img {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.btn-twitter {
+  background: #00acee;
+  border-color: #009ad5;
+}
+.btn-facebook {
+  background: #4868ac;
+  border-color: #314776;
+}
+.btn-pinterest {
+  background: #b62f26;
+  border-color: #b62f26;
 }
