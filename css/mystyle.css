@@ -171,6 +171,9 @@ img {
 .col-sm-4 {
   margin-top: 50px;
 }
+.form-control {
+  margin-bottom: 15px;
+}
 .cta {
   font-weight: bold;
 }
