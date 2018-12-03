@@ -170,3 +170,6 @@ img {
 .col-sm-4 {
   margin-top: 50px;
 }
+.cta {
+  font-weight: bold;
+}
