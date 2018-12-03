@@ -7,6 +7,17 @@ body {
   src: url(https://befonts.com/margot-font-family.html);
   color: #003366;
   font-variant: small-caps;
+  position: relative;
+}
+.navbar-collapse {
+  position: relative;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-family: margot;
+  src: url(https://befonts.com/margot-font-family.html);
+  color: #003366;
+  font-variant: small-caps;
 }
 li {
   font-family: margot;
