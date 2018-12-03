@@ -43,8 +43,76 @@
 </div>
 
 <div class="col-sm-4">
-<img src="http://36limestreet.co.uk/wp-content/uploads/2018/09/Lizzie-Paintings-Large-8-720x759.jpg" class="img-rounded" alt="bluepainting">
-<p>Ode to Number Four, September 2018</p>
+  <!-- Slideshow container -->
+  <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides">
+      <img src="http://36limestreet.co.uk/wp-content/uploads/2018/09/Lizzie-Paintings-Large-8-720x759.jpg" style="width:100%">
+      <div class="text">Ode to Number Four, September 2018</div>
+    </div>
+
+    <div class="mySlides">
+      <img src="https://payload567.cargocollective.com/1/22/714529/13648732/Green-Mirror-20x24cm-oil-on-aluminium_2000_c.jpg" style="width:100%">
+      <div class="text">Degree Show, June 2018</div>
+    </div>
+
+    <div class="mySlides">
+      <img src="https://payload567.cargocollective.com/1/22/714529/13648732/Blue-vs.-Lilac-13x21cm-oil-on-aluminium_2000_c.jpg" style="width:100%">
+      <div class="text">Degree Show, June 2018</div>
+    </div>
+
+    <div class="mySlides">
+      <img src="https://scontent-amt2-1.cdninstagram.com/vp/6ef4d36eecc43514e252649998d886cf/5C294313/t51.2885-15/sh0.08/e35/s640x640/40232242_198706857552043_5147508567654093293_n.jpg" style="width:100%">
+      <div class="text">Degree Show, June 2018</div>
+    </div>
+
+    <div class="mySlides">
+      <img src="https://2.bp.blogspot.com/-cCR2LAuE3uQ/WyQQkg1vhWI/AAAAAAAAO9U/xzZ0uZTulpcX0_9-OUrUFAl0wVvF6lpIQCLcBGAs/s1600/Newcastle_Uni_Undergrad_Exhibition-1June2018.jpg" style="width:100%">
+      <div class="text">Degree Show, June 2018</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+  <script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
 </div>
 
 <div class="col-sm-4">
