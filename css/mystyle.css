@@ -167,3 +167,6 @@ img {
   font: white;
   border-color: #009ad5;
 }
+.col-sm-4 {
+  margin-top: 50px;
+}
