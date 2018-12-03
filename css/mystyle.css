@@ -79,6 +79,7 @@ img {
   max-width: 600px;
   position: relative;
   margin: auto;
+  margin-bottom: 20px;
 }
 
 /* Hide the images by default */
@@ -175,7 +176,7 @@ img {
   border-color: #009ad5;
   margin-top: 25px;
 }
-.col-sm-4 {
+.col-sm-6 {
   margin-top: 50px;
 }
 .form-control {
