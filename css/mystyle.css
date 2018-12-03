@@ -27,6 +27,7 @@ p {
   font-family: margot;
   src: url(https://befonts.com/margot-font-family.html);
   text-align: center;
+  font-size: 15px;
 }
 .text {
   color: #003366;
